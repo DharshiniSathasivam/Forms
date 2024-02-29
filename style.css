@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+#formData{
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    max-width: fit-content;
+    text-align: left;
+    background-color: bisque;
+}
+
+label{
+    margin-top: 15px;
+    font-size: bold;
+    font-weight: 800;
+}
+.food{
+    align-items: baseline;
+    top: 10px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, rgba(232,204,231,0.46) 0%, rgb(135, 130, 141) 100%);
+}
+button:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 40px;
+    background: radial-gradient(circle, rgba(58, 31, 57, 0.46) 0%, rgb(226, 224, 228) 100%);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
